@@ -1,0 +1,17 @@
+<h2>Hi There! Welcome to homework 3!</h2>
+
+<%  @users.each do |u| %>
+	<h2> User Name<%= u.username %> </h2>
+	<h2> User Email <%= u.email %> </h2>
+	<h2> User Age <%= u.age %> </h2> 
+<% end %>
+
+
+<% @cats.each do |u| %>
+	<h2> Cat Name <%= u.name %> </h2>
+<% end %>
+
+<% @todos.each do |u| %>
+	<h2> Task <%= u.tasks %> </h2>
+	<h2> Finished <%= u.finished %> </h2>
+<% end %>
